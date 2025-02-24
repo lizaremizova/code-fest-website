@@ -18,10 +18,10 @@
                     <img src="favicon/favicon.ico" alt="Logo">
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">CONTACTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#schedule">SCHEDULE</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#fact">FACT</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,7 +45,7 @@
 
     <div class="main2">
         <div class="top-widget">
-            <a href="">VIEW SCHEDULE</a>
+            <a href="#schedule">VIEW SCHEDULE</a>
             <img src="img/Group 93 (3).png" alt="">
         </div>
         <div class="widgets2">
@@ -65,7 +65,7 @@
 
 </div>
 
-<div class="about">
+<div class="about" id="about">
     <div class="text">
         <h1>
             ABOUT US
@@ -90,7 +90,7 @@
     </section>
 </div>
 
-<div class="schedule">
+<div class="schedule" id="schedule">
     <div class="text">
         <h1>
             SCHEDULE
@@ -108,9 +108,8 @@
         </a>
     </div> -->
 </div>
-<div class="swiper">
- <div class="slider" class="swiper-wrapper">
-    <div class="slide" class="swiper-slide">
+ <div class="slider">
+    <div class="slide">
         <h2>Opening Keynote: <br>Future of Tech</h2>
         <p>
             Kick off CodeFest with <br>insights on upcoming tech trends.
@@ -121,7 +120,7 @@
         </div>
     </div>
 
-    <div class="slide" class="swiper-slide">
+    <div class="slide">
         <h2>Opening Keynote: <br>Future of Tech</h2>
         <p>
             Kick off CodeFest with <br>insights on upcoming tech trends.
@@ -132,7 +131,7 @@
         </div>
     </div>
 
-    <div class="slide" class="swiper-slide">
+    <div class="slide">
         <h2>Opening Keynote: <br>Future of Tech</h2>
         <p>
             Kick off CodeFest with <br>insights on upcoming tech trends.
@@ -142,17 +141,20 @@
             <a href="">more</a>
         </div>
     </div>
-
-    <div class="swiper-pagination"></div>
-    
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
  </div>
 
 
-</div>
+    <h1>Cat Fact</h1>
+ <div id="fact">Click the button to load a cat fact!</div>
+ <button onclick="getCatFact()">Get Cat Fact</button>
+ 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<footer>
+    <p>@all right reserved</p>
+</footer>
+
+
 <script src="script.js"></script>
 </body>
 </html>
